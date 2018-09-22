@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/css/reset.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+
+        <header>
+                <article>
+                        <h1>Swaroop Kondreddy</h1>
+                </article>
+
+                <nav>
+                        <ul>
+                                <li><a href="index.html">About</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="#">Contact</a></li>
+                        </ul>
+                </nav>
+        </header>
+
+        <div class="container">
+
+                <div class="content">
+
+                        <h1>Contact</h1>
+
+                        <hr>
+                        <div id="after_submit"></div>
+                        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                                <div class="row">
+                                        <label class="required" for="name">Name:</label><br />
+                                        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                                        <span id="name_validation" class="error_message"></span>
+                                </div>
+                                <div class="row">
+                                        <label class="required" for="email">Email:</label><br />
+                                        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                                        <span id="email_validation" class="error_message"></span>
+                                </div>
+                                <div class="row">
+                                        <label class="required" for="message">Message:</label><br />
+                                        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                                        <span id="msg_validation" class="error_message"></span>
+                                </div>
+
+                                <input id="submit_button" type="submit" value="Submit" />
+                        </form>
+
+
+                </div>
+        </div>
+
+        <footer>
+                Copyright &copy;
+        </footer>
+</body>
+
+</html>
